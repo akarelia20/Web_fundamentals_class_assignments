@@ -1,0 +1,31 @@
+* {
+    padding: 10px;
+}
+img {
+    height: 200px;
+}
+h1, p{
+    color:rgb(51, 47, 47);
+    text-align: center;
+}
+.blue-box, .yellow-box {
+    display: flex;
+    justify-content: space-between;
+}
+.gray-box{
+    background-color: rgb(160, 154, 154);
+}
+.blue-box {
+    background-color: rgb(101, 193, 255);
+    margin-bottom: 10px;
+}
+.pink-box {
+    background-color: pink;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.yellow-box {
+    background-color: rgb(248, 248, 89);
+}
