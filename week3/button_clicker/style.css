@@ -2,7 +2,9 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family:Geneva, Tahoma, sans-serif;
 }
+
 p,h2,button {
     margin: 20px 0px;
 }
