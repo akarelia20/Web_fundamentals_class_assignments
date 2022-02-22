@@ -68,6 +68,10 @@ input {
     width:20%;
 }
 
+#blue {
+    width:80px;
+}
+
 #green {
     background-color: rgb(30, 131, 30);
     color:black;
