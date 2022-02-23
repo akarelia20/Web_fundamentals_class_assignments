@@ -1,0 +1,1 @@
+This a first step towards creating a profile page project.. I structured my HTML with mutiple divs and used CSS properties like dispalay:flex, justify-content, align-items, image border, padding, margin, width and height to achieve my goal. 
