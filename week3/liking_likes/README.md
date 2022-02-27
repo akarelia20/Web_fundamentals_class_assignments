@@ -1,0 +1,4 @@
+I have used html and CSS properties in combination with javascript function.
+This project focuses on "onclick" event, Each click on the like button should increase the number of likes.
+In the part 1 , there is only one like button and # of likes next to it, and in part 2 there are 3 likes button and each one has different number of likes to start with as shown in the attached screenshots. Part 1 was fairly straight forward.
+Part 2 was kind of challenging, first I created an array to store the values of likes that was given to me as a start-point and then I created three separate functions for each "like" button. Then I created one function with "if" and "else if" condition statements which worked for all three buttons and lastly made the function even more simpler without if and else if. See JS file to review all three different approach.
