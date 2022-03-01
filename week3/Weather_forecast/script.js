@@ -8,17 +8,14 @@ function displayAlert(element) {
 /* 
 * function to remove cookies upon clicking "I Accept button".
 */
-var cookies = document.querySelector(".cookies");
-
 function removeCookie(){
+    var cookies = document.querySelector(".cookies");
     cookies.remove();
 }
 
 /* 
 * function changes temprature into units upon a option selection
 */
-var temp= document.querySelectorAll(".temp");
-
 function convertTemp() {
     if (document.getElementById('options').value == "f") {
         converttoF();
@@ -27,11 +24,13 @@ function convertTemp() {
     }
 }
 function converttoF() {
+    var temp= document.querySelectorAll(".temp");
     for (i=0; i < temp.length; i++){
         temp[i].innerText= Math.floor(temp[i].innerText* 9 / 5+32);
     }
 }
 function converttoC() {
+    var temp= document.querySelectorAll(".temp");
     for(i=0; i < temp.length; i++) {
         temp[i].innerText= Math.round((temp[i].innerText-32)* 5/9);
     }
