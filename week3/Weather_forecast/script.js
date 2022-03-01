@@ -1,7 +1,7 @@
 /* 
 * function to display alert upon clicking on cities.
 */
-function displayAlert(element) {
+function displayAlert() {
     alert("Loading weather report....");
 }
 
